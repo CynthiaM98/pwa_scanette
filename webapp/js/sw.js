@@ -18,7 +18,12 @@ var contentToCache = [
   './icons/icon-192.png',
   './icons/icon-256.png',
   './icons/icon-512.png',
-  './icons/icon-180.png'
+  './icons/icon-180.png',
+  './js/app.js',
+  './js/DecoderWorker.js',
+  './js/exif.js',
+  './js/job.js',
+  './js/sw.js'
 ];
 
 self.addEventListener('install', (e) => {
