@@ -1,25 +1,24 @@
 var cacheName = 'scanette_cache';
-var appShellFiles = [
-  '/webapp/',
-  '/webapp/index.html',
-  '/webapp/favicon.ico',
-  '/webapp/manifest.json',
-  '/webapp/produits.csv',
-  '/webapp/style.css',
-  '/webapp/images/barcode-scanner.png',
-  '/webapp/images/icon-cart.png',
-  '/webapp/images/icon-setup.png',
-  '/webapp/images/icon-transmit.png',
-  '/webapp/images/logo.png',
-  '/webapp/icons/icon-32.png',
-  '/webapp/icons/icon-64.png',
-  '/webapp/icons/icon-96.png',
-  '/webapp/icons/icon-128.png',
-  '/webapp/icons/icon-168.png',
-  '/webapp/icons/icon-192.png',
-  '/webapp/icons/icon-256.png',
-  '/webapp/icons/icon-512.png',
-  '/webapp/icons/icon-180.png'
+var contentToCache = [
+  './index.html',
+  './favicon.ico',
+  './manifest.json',
+  './produits.csv',
+  './style.css',
+  './images/barcode-scanner.png',
+  './images/icon-cart.png',
+  './images/icon-setup.png',
+  './images/icon-transmit.png',
+  './images/logo.png',
+  './icons/icon-32.png',
+  './icons/icon-64.png',
+  './icons/icon-96.png',
+  './icons/icon-128.png',
+  './icons/icon-168.png',
+  './icons/icon-192.png',
+  './icons/icon-256.png',
+  './icons/icon-512.png',
+  './icons/icon-180.png'
 ];
 
 self.addEventListener('install', (e) => {
