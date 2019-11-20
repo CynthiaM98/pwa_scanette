@@ -32,6 +32,14 @@
     <!-- library for reading barcodes -->
     <script src="js/app.js" defer></script>
 
+    <script>
+        if('serviceWorker' in navigator) {
+            window.addEventListener('load', function(){
+                navigator.serviceWorker.register('./js/sw.js');
+            })
+        };
+    </script>
+
 </head>
 
 <body>
