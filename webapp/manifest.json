@@ -1,0 +1,21 @@
+{
+  "short_name": "ScanM1",
+  "name": "Scanette des M1",
+  "icons": [
+    {
+      "src": "/icons/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/webapp/",
+  "display": "standalone",
+  "scope": "/webapp/",
+  "theme_color": "#3367D6"
+
+}
