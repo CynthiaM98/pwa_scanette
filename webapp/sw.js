@@ -22,7 +22,8 @@ var contentToCache = [
   './js/app.js',
   './js/DecoderWorker.js',
   './js/exif.js',
-  './js/job.js'
+  './js/job.js',
+  './js/sw.js'
 ];
 
 self.addEventListener('install', (e) => {
